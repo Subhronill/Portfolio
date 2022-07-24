@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PortFolio - Sohom</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/70083888dd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Servces</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick = "openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>A.I. Scientist</p>
+                <h1>Hii, I'm <span>Kevin</span><br>from Australia</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consectetur a officiis esse aut facere porro optio eius voluptas ad reprehenderit nihil saepe odio ex, tenetur velit inventore, ab reiciendis nesciunt magnam ullam ipsam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus accusamus sint ipsa quos eveniet quo molestias? Architecto nisi rerum magni!
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Robotics</span><br>Designing internal/external Robot archistructure</li>
+                            <li><span>Web Development</span><br>Designing and developing websites</li>
+                            <li><span>Android Development</span><br>Building android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Robotics</span><br>Designing internal/</li>
+                            <li><span>Web Development</span><br>Designing and de</li>
+                            <li><span>Android Development</span><br>Building android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Robotics</span><br>Designing internal/external Robot archistructure</li>
+                            <li><span>Web Development</span><br>Designing and develsites</li>
+                            <li><span>Android Development</span><br>Builds apps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----------------services----------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Artifical Intelligence</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vitae, vel distinctio iste ipsam vero. Architecto culpa quas delectus voluptates ducimus. Quaerat.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vitae, vel distinctio iste ipsam vero. Architecto culpa quas delectus voluptates ducimus. Quaerat.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-object-group"></i>
+                <h2>Graphics Designing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vitae, vel distinctio iste ipsam vero. Architecto culpa quas delectus voluptates ducimus. Quaerat.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Sprite Robot</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iure omnis aliquid, tempore veniam culpa?s</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Workifi</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iure omnis aliquid, tempore veniam culpa?s</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>LaughTale</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iure omnis aliquid, tempore veniam culpa?s</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- --------------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> sohom.nil@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8133086730</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" id="" placeholder="Enter your name " required>
+                    <input type="email" name="Email" id="" placeholder="Enter your email" required>
+                    <textarea name="Massage" rows="6" placeholder="How can i help you ?"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyrught &copy; Sohom. Made with <i class="fa-solid fa-heart"></i> by Subhronil Choudhury</p>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
